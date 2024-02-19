@@ -1,0 +1,76 @@
+.wrapper{
+  width: 100%;
+  height: 1225px;
+  background-image: url('../../assets/images/Rectangle 2 (1).png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: flex;
+  padding: 300px 150px 0;
+  justify-content: space-between;
+  color: #FFF;
+}
+.aboutText{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutText h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+.aboutText p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.aboutImage{
+  width: 50%;
+}
+.aboutUsBtn{
+  width: 126px;
+  height: 52px;
+  background-color: #EE9C9A;
+  color: #413735;
+  border: none;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    flex-direction: column;
+    padding: 0 0 0 30px;
+    justify-content: unset;
+    gap: 80px;
+    height: 906px;
+    align-items: center;
+  }
+  .aboutText{
+    width: 100%;
+    align-items: left;
+    text-align: left;
+  }
+  .aboutText h2{
+    font-size: 20px;
+  }
+  .aboutText p{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .aboutUsBtn{
+    font-size: 14px;
+    height: 35px;
+    width: 104px;
+  }
+  .aboutText h2{
+    font-size: 20px;
+  }
+  .aboutImage{
+    width: 300px;
+    height: 300px;
+  }
+  .aboutImage img{
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper{
+  width: 100%;
+}
+.innerWrapper{
+  width: 100%;
+  background-image: url('../../assets/images/footer.png');
+  background-repeat: no-repeat;
+  height: 658px;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bread{
+  display: flex;
+  gap: 80px;
+}
+@media screen and (max-width: 450px) {
+  .bread{
+    flex-direction: column;
+    width: 100%;
+  }
+  .innerWrapper{
+    padding: 60px 15px 0px;
+    height: 100%;
+  }
+}
