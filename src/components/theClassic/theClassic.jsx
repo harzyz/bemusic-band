@@ -8,7 +8,7 @@ import image6 from "../../assets/images/image 5.png";
 
 const TheClassic = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id='gallery' className={styles.wrapper}>
       <div className={styles.topPart}>
         <h2>
           The band <br /> in classic uniforms

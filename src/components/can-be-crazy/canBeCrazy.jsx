@@ -5,7 +5,7 @@ import crazyBand2 from "../../assets/images/musicband-band 1small.png";
 
 const CanBeCrazy = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="music" className={styles.wrapper}>
       <h1>
         We can be crazy <br /> even in classical uniforms
       </h1>
@@ -14,6 +14,7 @@ const CanBeCrazy = () => {
       </div>
       <div className={styles.crazyBand}>
         <img src={crazyBand} alt="" />
+        <img src={crazyBand2} alt="" />
       </div>
       <div className={styles.buytickets}>
         <span>

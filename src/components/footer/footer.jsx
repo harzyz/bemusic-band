@@ -3,7 +3,7 @@ import socials from '../../assets/images/Group 20.png'
 
 const Footer = () => {
   return (
-    <footer className={styles.wrapper}>
+    <footer id='contact' className={styles.wrapper}>
       <div className={styles.innerWrapper}>
         <div className={styles.bread}>
           <div>
@@ -26,6 +26,9 @@ const Footer = () => {
             <p>Envato <br /> Level 13, 2 Elizabeth <br /> Victoria 3000 <br /> Australia</p>
           </div>
         </div>
+      </div>
+      <div className={styles.down}>
+      © 2024 Betheme by Muffin group | All Rights Reserved | Powered by WordPress
       </div>
     </footer>
   );

@@ -31,7 +31,7 @@ const HeroSection = () => {
   }
 
   return (
-    <section className={styles.wrapper}>
+    <section id='home' className={styles.wrapper}>
       <div className={styles.one}>
         <nav className={styles.navbar}>
           <div className={styles.logo}>
@@ -45,12 +45,12 @@ const HeroSection = () => {
           </div>
           <div onClick={toggleMenuClose} className={menu ? styles.navListWapper : styles.closeListWapper}>
             <ul onClick={e => e.stopPropagation()} className={menu ? styles.navList : styles.close}>
-              <li>Home</li>
-              <li>The brand</li>
-              <li>Music</li>
-              <li>Gallery</li>
-              <li>Contact</li>
-              <li>
+              <a onClick={toggleMenuClose} href="#home"><li>Home</li></a>
+              <a onClick={toggleMenuClose} href="#music"><li>The brand</li></a>
+              <a onClick={toggleMenuClose} href="#home"><li>Music</li></a>
+              <a onClick={toggleMenuClose} href="#gallery"><li>Gallery</li></a>
+              <a onClick={toggleMenuClose} href="#contact"><li>Contact</li></a>
+              <li onClick={toggleMenuClose}>
                 <button className={styles.buyNowBtn}>Buy Now</button>
               </li>
               <FaRegWindowClose onClick={toggleMenuClose} className={styles.closeIcon} />

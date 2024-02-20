@@ -15,6 +15,16 @@
   display: flex;
   gap: 80px;
 }
+.down{
+  border-top: 1px solid #FFF;
+  width: 100%;
+  height: 50px;
+  background-color: #493B35;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 450px) {
   .bread{
     flex-direction: column;
@@ -23,5 +33,10 @@
   .innerWrapper{
     padding: 60px 15px 0px;
     height: 100%;
+  }
+  .down{
+    height: 100%;
+    padding: 20px;
+    font-size: 8px;
   }
 }

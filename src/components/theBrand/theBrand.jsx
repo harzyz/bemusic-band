@@ -3,7 +3,7 @@ import guitar from "../../assets/images/musicband-instruments 1.png";
 
 const TheBrand = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id='brand' className={styles.wrapper}>
       <div className={styles.aboutText}>
         <h2>We can feel and <br /> play any song</h2>
         <p>

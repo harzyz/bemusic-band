@@ -66,9 +66,11 @@
   }
   .pictures{
     width: 100%;
+    padding: 80px 0;
   }
   .typo{
     width: 100%;
+    padding: 80px 0;
   }
   .crazyTypo{
     position: unset;
@@ -76,5 +78,11 @@
   .instruments{
     flex-direction: column;
     gap: 50px;
+    padding: 80px 0;
+  }
+  .learnBtn{
+    font-size: 14px;
+    height: 35px;
+    width: 104px;
   }
 }
