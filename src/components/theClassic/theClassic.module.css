@@ -59,6 +59,8 @@
   .topPart{
     flex-direction: column;
     height: 100%;
+    align-items: center;
+    text-align: center;
   }  
   .bottomPart{
     flex-direction: column;

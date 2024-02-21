@@ -1,0 +1,16 @@
+.wrapper{
+  border: none;
+  font-size: 18px;
+  color: #413735;
+  font-family: 'Inter';
+  background-color: #EE9C9A;
+  width: fit-content;
+  height: 64px;
+  font-weight: 600;
+}
+@media screen and (max-width: 700px) {
+  .wrapper{
+    font-size: 14px;
+    height: 45px;
+  }
+}

@@ -2,6 +2,7 @@ import styles from "./canBeCrazy.module.css";
 import darkBg from "../../assets/images/darkerBg.png";
 import crazyBand from "../../assets/images/musicband-band 1.png";
 import crazyBand2 from "../../assets/images/musicband-band 1small.png";
+import Button from "../button/button";
 
 const CanBeCrazy = () => {
   return (
@@ -26,7 +27,7 @@ const CanBeCrazy = () => {
           <p>Hours</p>
         </span>
         <p>Vivamus in diam turpis. In <br /> condimentum maximus tristique</p>
-        <button className={styles.ticketsBtn}>Buy tickets now</button>
+        <Button label={'Buy tickets now'} />
       </div>
     </section>
   );

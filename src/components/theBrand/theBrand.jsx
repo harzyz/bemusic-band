@@ -1,5 +1,6 @@
 import styles from "./theBrand.module.css";
 import guitar from "../../assets/images/musicband-instruments 1.png";
+import Button from "../button/button";
 
 const TheBrand = () => {
   return (
@@ -11,7 +12,7 @@ const TheBrand = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitat pa qui officia.
         </p>
-        <button className={styles.aboutUsBtn}>About Us</button>
+        <Button label={'About Us'} />
       </div>
       <div className={styles.aboutImage}>
         <img src={guitar} alt="" />

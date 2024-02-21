@@ -5,6 +5,7 @@ import image3 from "../../assets/images/image 2.png";
 import image4 from "../../assets/images/image 4.png";
 import image5 from "../../assets/images/image 6.png";
 import image6 from "../../assets/images/image 5.png";
+import Button from "../button/button";
 
 const TheClassic = () => {
   return (
@@ -49,7 +50,7 @@ const TheClassic = () => {
               Vivamus in diam turpis. In condimentum <br /> maximus tristique. Maecenas
               non laoreet <br /> odio.
             </p>
-            <button className={styles.learnBtn}>Learn More</button>
+            <Button label={'Learn More'} />
           </div>
         </div>
       </div>
